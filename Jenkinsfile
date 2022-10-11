@@ -15,7 +15,7 @@ pipeline {
 	stages {
 		stage ('SCM checkout') {
 			steps {
-				git 'https://github.com/akash-aws/nodejs-app-mss.git'
+				git 'https://github.com/akash-aws/nodejs-app.git'
 			}
 		}
 		stage('build-image') {
